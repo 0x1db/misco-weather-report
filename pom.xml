@@ -13,7 +13,10 @@
 
   <modules>
     <module>eureka-server</module>
+    <module>msa-weather-city-server</module>
     <module>msa-weather-collection-server</module>
+    <module>msa-weather-data-server</module>
+    <module>msa-weather-report-server</module>
   </modules>
 
   <groupId>cn.weather</groupId>

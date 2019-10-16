@@ -10,10 +10,10 @@
   </parent>
 
   <groupId>cn.weather</groupId>
-  <artifactId>msa-weather-collection-server</artifactId>
+  <artifactId>msa-weather-data-server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>msa-weather-collection-server</name>
-  <description>collection server</description>
+  <name>msa-weather-data-server</name>
+  <description>weather report data server</description>
 
   <dependencies>
     <dependency>
@@ -23,10 +23,6 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-quartz</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
